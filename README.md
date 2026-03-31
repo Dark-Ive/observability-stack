@@ -3,11 +3,11 @@
 A full monitoring stack built with Docker Compose on Debian Linux.
 
 ## Stack
-- **Prometheus** — metrics collection
-- **Grafana** — visualization & dashboards
-- **Node Exporter** — system metrics
-- **Alertmanager** — alert routing
-- **Custom Python Exporter** — application-level metrics
+- **Prometheus** - metrics collection
+- **Grafana** - visualization & dashboards
+- **Node Exporter** - system metrics
+- **Alertmanager** - alert routing
+- **Custom Python Exporter** - application-level metrics
 
 ## Setup
 ```bash
