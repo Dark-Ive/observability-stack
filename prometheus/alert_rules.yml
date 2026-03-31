@@ -1,0 +1,29 @@
+groups:
+  - name: custom_alerts
+    rules:
+      - alert: HighCPUUsage
+        expr: custom_cpu_usage_percent > 80
+        for: 30s
+        labels:
+          severity: warning
+        annotations:
+          summary: "High CPU usage detected"
+          description: "CPU usage is above 80% for more than 30 seconds"
+
+      - alert: HighMemoryUsage
+        expr: custom_memory_usage_percent > 80
+        for: 30s
+        labels:
+          severity: warning
+        annotations:
+          summary: "High Memory usage detected"
+          description: "Memory usage is above 80% for more than 30 seconds"
+
+      - alert: HighDiskUsage
+        expr: custom_disk_usage_percent > 80
+        for: 30s
+        labels:
+          severity: critical
+        annotations:
+          summary: "High Disk usage detected"
+          description: "Disk usage is above 80% for more than 30 seconds"
