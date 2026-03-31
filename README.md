@@ -1,6 +1,6 @@
 # Observability Stack
 
-A full monitoring stack built with Docker Compose on Debian Linux.
+A beginner friendly monitoring stack built with Docker Compose on Debian.
 
 ## Stack
 - **Prometheus** - metrics collection
